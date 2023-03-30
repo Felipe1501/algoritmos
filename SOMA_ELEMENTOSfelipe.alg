@@ -1,19 +1,19 @@
-algoritmo "semnome"
-// Função :
-// Autor :
+algoritmo "soma_elementos"
+// Funï¿½ï¿½o : o usuario informa nr de elementos, e o programa calcula quantos elementos foram digitador
+// Autor : Felipe Barbosa dos Santos
 // Data : 30/03/2023
-// Seção de Declarações 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es 
 var
 soma, num: real
 i, n: inteiro
 
 inicio
-// Seção de Comandos 
-escreva("Digite o número de elementos: ")
+// Seï¿½ï¿½o de Comandos 
+escreva("Digite o nï¿½mero de elementos: ")
 leia(n)
 soma <- 0
 para i de 1 ate n faca
-escreva("Digite um número: ")
+escreva("Digite um nï¿½mero: ")
 leia(num)
 soma <- soma + num
 fimpara
